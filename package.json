@@ -1,0 +1,24 @@
+{
+  "name": "@tilfin/cache",
+  "version": "0.1.0",
+  "description": "Key-Value Cache library",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha test/*.test.ts --require ts-node/register"
+  },
+  "author": "Toshimitsu Takahashi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.14",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  }
+}
