@@ -1,6 +1,6 @@
 {
   "name": "@tilfin/cache",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Key-Value Cache library",
   "main": "lib/index.js",
   "files": [
@@ -20,5 +20,8 @@
     "mocha": "^6.2.2",
     "ts-node": "^8.5.4",
     "typescript": "^3.7.3"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
