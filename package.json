@@ -1,13 +1,14 @@
 {
   "name": "@tilfin/cache",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "Key-Value Cache library",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "exports": {
     ".": {
       "import": "./lib/index.mjs",
-      "require": "./lib/index.js"
+      "require": "./lib/index.js",
+      "types": "./lib/index.d.ts"
     }
   },
   "files": [
